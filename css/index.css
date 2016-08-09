@@ -1,0 +1,51 @@
+#sence{
+	width: 600px;
+	height: 600px;
+	margin:0 auto;
+	border-left:1px solid black;
+	border-top:1px solid black;
+	background: black;
+}
+.block{
+	width:29px;
+	height:29px;
+	background:#9BF5B9;
+	float:left;
+	margin-right:1px;
+	margin-bottom:1px;
+	/*background-image: -moz-linear-gradient(top, #8fa1ff, #3757fa); /* Firefox */
+    /*background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff4f02), color-stop(1, #8f2c00)); /* Saf4+, Chrome */
+   /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c6ff00', endColorstr='#538300', GradientType='0'); /* IE*/
+}
+.lose{
+	font-family: '微软雅黑';
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	margin-left: -50px;
+	padding: 5px 10px;
+	background:#E54B00;
+	color: #fff;
+	border-radius: 3px;
+	width: 100px;
+	height: 50px;
+	display: none;
+	line-height: 45px;
+}
+.start{
+	font-family: '微软雅黑';
+	text-align: center;
+	position: absolute;
+	left:73%;
+	top: 520px;
+	padding: 5px 10px;
+	background:#9BF5B9;
+	color: #fff;
+	border-radius: 3px;
+	width: 100px;
+	height: 50px;
+	line-height: 45px;
+	cursor: pointer;
+}
+
